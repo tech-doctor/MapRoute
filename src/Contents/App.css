@@ -1,0 +1,9 @@
+
+.App{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+    padding: 2em 5em;
+    margin-top: 40px;
+}
