@@ -2,42 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './Contents/App';
-import { createStore } from 'redux'
-//import { Provider } from 'react-redux'
 //import reportWebVitals from './reportWebVitals';
 
-//STORE -> GLOBALIZED STATE
-
-//ACTION INCREMENT
-const start = () => {
-  return {
-    type: 'START'
-  }
-}
-
-const drop = () => {
-  return {
-    type: 'DROP'
-  }
-}
-
-//REDUCER
-
-
-//DISPATCH
 
 
 
-
-
-
-
-ReactDOM.render(
-  <React.StrictMode>
-    {/* <Provider> */}
-      <App/>
-    {/* </Provider> */}
-  </React.StrictMode>,
+ReactDOM.render( <App/>,
   document.getElementById('root')
 );
 
